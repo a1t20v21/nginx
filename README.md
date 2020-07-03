@@ -21,17 +21,6 @@ We need the following 'gem' packages also:
 - berkshelf
 - colorize (only on local computer)
 
-#### Create/Generate a chef repo directory structure
-```bash
-chef generate repo chef-repo
-```
-
-#### Create chef cookbook 'nginx'
-```bash
-cd chef-repo/cookbooks/
-chef generate cookbook nginx
-```
-
 #### Set ruby included in chefdk as the system ruby
 ```bash
 eval "$(chef shell-init bash)"
@@ -121,8 +110,4 @@ cd chef-repo/cookbooks/nginx
 kitchen converge && kitchen verify
 ```
 
-The above command launches docker containers to run the tests. Always run `kitchen destroy all` to delete all the docker containers after running the tests.
-
-    
-
-    
+The above command launches docker containers to run the tests. Run `kitchen destroy all` to delete all the docker containers after running the tests.
