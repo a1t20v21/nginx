@@ -1,0 +1,7 @@
+name              'nginx'
+maintainer        'a1t20v21'
+maintainer_email  'a1t20v21@gmail.com'
+license           'MIT'
+description       'Installs/Configures nginx'
+long_description  'Installs/Configures nginx'
+version           '0.1.0'

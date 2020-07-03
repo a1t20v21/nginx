@@ -1,0 +1,8 @@
+name 'test_nginx'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'All Rights Reserved'
+description 'Installs/Configures test_nginx'
+long_description 'Installs/Configures test_nginx'
+version '0.1.0'
+depends 'nginx'
